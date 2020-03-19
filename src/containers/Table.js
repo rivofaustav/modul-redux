@@ -7,6 +7,7 @@ import {
 } from "../actions/actionCreator";
 import { SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE } from "../actions/actionsTypes";
 import { bindActionCreators } from "redux";
+
 class Table extends Component {
  render() {
  return (
